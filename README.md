@@ -27,3 +27,13 @@ To run:
 python3 server.py rtsp://username:password@address/
 ```
 
+## rtsp.py 
+Output message and rtsp only 
+```bash
+sudo python3 rtsp.py rtsp://admin:ivsr2019@192.168.0.103/
+``` 
+The output rtsp can be found at 
+```
+rtsp://localhost/ds-test 
+```
+

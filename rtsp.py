@@ -792,6 +792,8 @@ def main(args):
         sink.set_property("port", updsink_port_num)
         sink.set_property("async", False)
         sink.set_property("sync", 1)
+        #add 3 second delay 
+        sink.set_property("render-delay", 3000000000)
 
     #############################
 
